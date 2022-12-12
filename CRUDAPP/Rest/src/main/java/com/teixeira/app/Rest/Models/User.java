@@ -1,7 +1,11 @@
 package com.teixeira.app.Rest.Models;
 
 import jakarta.persistence.*;
-
+/*
+ * Java class that will be used as a table inside the MYSql database
+ * Each annotation makes it so we dont actually have to go in and create the database
+ * Aswell as setting up our getters and setters for the class variables
+ */
 @Entity
 public class User {
     @Id
